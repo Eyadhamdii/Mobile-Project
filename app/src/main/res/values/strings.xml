@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Homework">Homework</string>
+    <string name="Alerts">Alerts</string>
+    <string name="Contact">Contact</string>
+    <string name="Assigments">Assigments</string>
 </resources>
