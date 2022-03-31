@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".registration">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:text="Bus Registration"
+        android:textAlignment="center"
+        android:textColor="#1C451E"
+        android:textSize="32dp" />
+
+
+    <EditText
+        android:id="@+id/busName"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#c5e4e6"
+        android:hint="Bus Name"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#FFFEFE" />
+
+    <EditText
+        android:id="@+id/busId"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#c5e4e6"
+        android:hint="Bus ID"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#FFFEFE" />
+
+    <EditText
+        android:id="@+id/StudentName"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#c5e4e6"
+        android:hint="Student Name"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#FFFEFE" />
+
+    <EditText
+        android:id="@+id/childName"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#c5e4e6"
+        android:hint="Child Name"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#FFFEFE" />
+
+    <EditText
+        android:id="@+id/parentName"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#c5e4e6"
+        android:hint="Parent Name"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#FFFEFE" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#c5e4e6"
+        android:hint="address"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#FFFEFE"
+        android:textColorLink="#753939" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="183dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#303030"
+        android:text="Register"
+        android:textColorLink="#A13939" />
+</LinearLayout>
