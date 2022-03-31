@@ -8,29 +8,16 @@
     android:background="@drawable/Background"
     >
 
+
+
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="bgg.png"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="144dp"
-        android:layout_height="99dp"
-        android:text="Subjects"
-        android:textColor="#00008B"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:id="@+id/imageView88"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/mat"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -41,21 +28,16 @@
         tools:ignore="DuplicateIds,MissingConstraints"
 
         tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="170dp" />
+        tools:layout_editor_absoluteY="230dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="144dp"
-        android:layout_height="99dp"
-        android:text="Exams"
-        android:textColor="#00008B"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        tools:ignore="DuplicateIds,MissingConstraints"
-
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="280dp" />
-
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/ex"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="300dp"
+        tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -65,20 +47,16 @@
         tools:ignore="DuplicateIds,MissingConstraints"
 
         tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="330dp" />
+        tools:layout_editor_absoluteY="400dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="144dp"
-        android:layout_height="99dp"
-        android:text="Activities"
-        android:textColor="#00008B"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        tools:ignore="DuplicateIds,MissingConstraints"
-
-        tools:layout_editor_absoluteX="214dp"
-        tools:layout_editor_absoluteY="125dp" />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/act"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -88,21 +66,17 @@
         android:text="View"
         tools:ignore="DuplicateIds,MissingConstraints"
 
-        tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="400dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="144dp"
-        android:layout_height="99dp"
-        android:text="Bus"
-        android:textColor="#00008B"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        tools:ignore="DuplicateIds,MissingConstraints"
-
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="420dp" />
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/bus1"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="480dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -112,21 +86,17 @@
         android:text="View"
         tools:ignore="DuplicateIds,MissingConstraints"
 
-        tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="170dp" />
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="230dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="144dp"
-        android:layout_height="99dp"
-        android:text="HW"
-        android:textColor="#00008B"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        tools:ignore="DuplicateIds,MissingConstraints"
-
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="280dp" />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/homeworkk"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="300dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -136,8 +106,8 @@
         android:text="View"
         tools:ignore="DuplicateIds,MissingConstraints"
 
-        tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="472dp" />
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="580dp" />
 
     <Button
         android:id="@+id/button3"
@@ -147,31 +117,29 @@
         android:text="View"
         tools:ignore="DuplicateIds,MissingConstraints"
         tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="472dp" />
+        tools:layout_editor_absoluteY="580dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/par"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="480dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="144dp"
-        android:layout_height="99dp"
-        android:text="Parents"
-        android:textColor="#00008B"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="421dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="235dp"
-        android:layout_height="85dp"
-        android:text="Welcome!"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Welcome to our school"
         android:textColor="@color/white"
+        android:textFont="calibri"
         android:textSize="35dp"
         android:textStyle="bold"
-        android:textFont="calibri"
         tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="40dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
