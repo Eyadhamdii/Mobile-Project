@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         have_one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent login=new Intent(MainActivity.this, com.example.mobileproject.login.class);
+                Intent login=new Intent(MainActivity.this, com.example.myapplication.login.class);
                 startActivity(login);
             }
         });
