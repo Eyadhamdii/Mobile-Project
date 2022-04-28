@@ -1,84 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/b"
-    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b"
+        tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/in"
+        android:id="@+id/up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="104dp"
+
         android:gravity="center"
-        android:text="Login"
+        android:text="Sign up"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/unamein"
+        app:layout_constraintBottom_toTopOf="@+id/uname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.723"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.458"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <EditText
-        android:id="@+id/unamein"
+        android:id="@+id/uname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/in"
         android:layout_marginBottom="72dp"
         android:background="#30ffffff"
         android:drawablePadding="20dp"
-        android:hint="username"
+        android:hint="Create a username"
         android:padding="20dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/upassin"
+        app:layout_constraintBottom_toTopOf="@+id/upass"
         tools:layout_editor_absoluteX="0dp" />
 
     <EditText
-        android:id="@+id/upassin"
+        android:id="@+id/upass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/unamein"
+        android:layout_below="@id/uname"
         android:layout_marginBottom="84dp"
         android:background="#30ffffff"
         android:drawablePadding="20dp"
-        android:hint="Password"
+        android:hint="Create a password"
         android:inputType="textPassword"
         android:padding="20dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/sin_bt"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintBottom_toTopOf="@+id/sup_bt"
+        app:layout_constraintStart_toStartOf="parent"
+       />
 
     <Button
-        android:id="@+id/sin_bt"
+        android:id="@+id/sup_bt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/upassin"
+        android:layout_below="@id/upass"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
         android:backgroundTint="#6c2b85"
-        android:text="Login"
+        android:text="SignUp"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@+id/not_have"
+        app:layout_constraintBottom_toTopOf="@+id/have_one"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/not_have"
+        android:id="@+id/have_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sin_bt"
+        android:layout_below="@id/sup_bt"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="76dp"
-        android:text="@string/don_t_have_an_account"
+        android:text="Already Have an Account"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
