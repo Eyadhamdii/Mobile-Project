@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="Homework">Homework</string>
-    <string name="Alerts">Alerts</string>
-    <string name="Contact">Contact</string>
-    <string name="Assigments">Assigments</string>
+    <string name="app_name">MobileProject</string>
+    <string name="create_username">Create username</string>
+    <string name="username">Username</string>
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+
+    <string name="ad_m">adieu mon pays</string>
+    <string name="la_f">la femme de mon ami</string>
+    <string name="les_f">les filles de mon pays</string>
+    <string name="oh_g">oh guitare</string>
 </resources>
