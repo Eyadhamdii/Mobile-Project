@@ -11,61 +11,57 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="740dp"
+        android:layout_height="820dp"
         android:layout_gravity="bottom"
-        android:background="@drawable/enrico1"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints">
+        android:background="@drawable/week"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp">
 
         <TextView
             android:id="@+id/text1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="37dp"
+            android:layout_marginTop="27dp"
             android:gravity="center"
-            android:text="@string/ad_m"
+            android:text="Blinding lights"
             android:textColor="@color/white"
             android:textSize="39dp"
             app:layout_constraintTop_toBottomOf="@+id/text"
-            tools:layout_editor_absoluteX="16dp" />
+            tools:layout_editor_absoluteX="0dp" />
 
         <ImageView
             android:id="@+id/image1.1"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:layout_marginStart="52dp"
+            android:layout_marginStart="72dp"
             android:layout_marginTop="24dp"
-            android:layout_marginBottom="38dp"
+            android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toTopOf="@+id/text2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text1"
-            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@android:drawable/ic_media_play" />
 
         <ImageView
             android:id="@+id/image1.2"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:layout_marginStart="83dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="76dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="34dp"
             app:layout_constraintBottom_toTopOf="@+id/text2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.042"
             app:layout_constraintStart_toEndOf="@+id/image1.1"
             app:layout_constraintTop_toBottomOf="@+id/text1"
-            app:layout_constraintVertical_bias="0.4"
             app:srcCompat="@android:drawable/ic_media_pause" />
 
         <TextView
             android:id="@+id/text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="112dp"
+            android:layout_marginTop="115dp"
             android:gravity="center"
-            android:text="@string/la_f"
+            android:text="Save your tears"
             android:textColor="@color/white"
             android:textSize="35dp"
             app:layout_constraintTop_toBottomOf="@+id/text1"
@@ -75,106 +71,106 @@
             android:id="@+id/image2.1"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="26dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
             app:layout_constraintBottom_toTopOf="@+id/text3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text2"
-            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@android:drawable/ic_media_play" />
 
         <ImageView
             android:id="@+id/image2.2"
-            android:layout_width="109dp"
-            android:layout_height="58dp"
-            android:layout_marginStart="86dp"
-            android:layout_marginTop="26dp"
-            android:layout_marginEnd="64dp"
-            android:layout_marginBottom="22dp"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
             app:layout_constraintBottom_toTopOf="@+id/text3"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.042"
             app:layout_constraintStart_toEndOf="@+id/image2.1"
             app:layout_constraintTop_toBottomOf="@+id/text2"
-            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@android:drawable/ic_media_pause" />
 
         <TextView
             android:id="@+id/text3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="106dp"
+            android:layout_marginTop="88dp"
             android:gravity="center"
-            android:text="@string/les_f"
+            android:text="Take my breath"
             android:textColor="@color/white"
             android:textSize="40dp"
             app:layout_constraintTop_toBottomOf="@+id/text2"
-            tools:layout_editor_absoluteX="0dp" />
+            tools:layout_editor_absoluteX="31dp" />
 
         <ImageView
             android:id="@+id/image3.1"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="11dp"
-            android:layout_marginBottom="14dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="48dp"
             app:layout_constraintBottom_toTopOf="@+id/text4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text3"
-            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@android:drawable/ic_media_play" />
 
         <ImageView
             android:id="@+id/image3.2"
-            android:layout_width="100dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="83dp"
-            android:layout_marginTop="11dp"
-            android:layout_marginEnd="76dp"
-            android:layout_marginBottom="14dp"
+            android:layout_width="103dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="46dp"
             app:layout_constraintBottom_toTopOf="@+id/text4"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
             app:layout_constraintStart_toEndOf="@+id/image3.1"
             app:layout_constraintTop_toBottomOf="@+id/text3"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="1.0"
             app:srcCompat="@android:drawable/ic_media_pause" />
 
         <TextView
             android:id="@+id/text4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="85dp"
+            android:layout_marginTop="124dp"
             android:gravity="center"
-            android:text="@string/oh_g"
+            android:text="Gasoline"
             android:textColor="@color/white"
             android:textSize="40dp"
             app:layout_constraintTop_toBottomOf="@+id/text3"
-            tools:layout_editor_absoluteX="25dp" />
+            tools:layout_editor_absoluteX="0dp" />
 
         <ImageView
             android:id="@+id/image4.1"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="22dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text4"
-            app:layout_constraintVertical_bias="0.04"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@android:drawable/ic_media_play" />
 
         <ImageView
             android:id="@+id/image4.2"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:layout_marginStart="83dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="76dp"
+            android:layout_marginBottom="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/image4.1"
             app:layout_constraintTop_toBottomOf="@+id/text4"
-            app:layout_constraintVertical_bias="0.02"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@android:drawable/ic_media_pause" />
 
         <TextView
@@ -185,7 +181,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Enrico macias"
+            android:text="The weekend"
             android:textColor="@color/white"
 
             android:textSize="30dp"
