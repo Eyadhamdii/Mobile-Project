@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".NewActivity1"
+
+    >
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" محمود الحصرى "
+        android:textColor="#FFFF00"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@color/black"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="431dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/background3">
+
+        //سورة الفاتحة
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="29dp"
+            android:background="#20B2AA"
+            android:textColor="@color/white"
+            android:text=" سورة الفاتحة "
+            android:textSize="39dp" />
+
+        <ImageView
+            android:id="@+id/image1.1"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="210dp"
+            app:srcCompat="@android:drawable/ic_media_play"/>
+
+        <ImageView
+            android:id="@+id/image1.2"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="270dp"
+            app:srcCompat="@android:drawable/ic_media_pause"/>
+
+        <ImageView
+            android:id="@+id/image1.3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="330dp"
+            app:srcCompat="@android:drawable/stat_sys_download_done"/>
+
+        // سورة الاخلاص
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:background="#20B2AA"
+            android:textColor="@color/white"
+            android:text="  سورة الاخلاص "
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/image2.1"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="210dp"
+            app:srcCompat="@android:drawable/ic_media_play"/>
+
+        <ImageView
+            android:id="@+id/image2.2"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="270dp"
+            app:srcCompat="@android:drawable/ic_media_pause"/>
+
+        <ImageView
+            android:id="@+id/image2.3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="330dp"
+            app:srcCompat="@android:drawable/stat_sys_download_done"/>
+
+        // سورة الفلق
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="271dp"
+            android:background="#20B2AA"
+            android:textColor="@color/white"
+            android:text="  سورة الفلق "
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/image3.1"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="271dp"
+            android:layout_marginLeft="210dp"
+            app:srcCompat="@android:drawable/ic_media_play"/>
+
+        <ImageView
+            android:id="@+id/image3.2"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="271dp"
+            android:layout_marginLeft="270dp"
+            app:srcCompat="@android:drawable/ic_media_pause"/>
+
+        <ImageView
+            android:id="@+id/image3.3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="281dp"
+            android:layout_marginLeft="330dp"
+            app:srcCompat="@android:drawable/stat_sys_download_done"/>
+
+        // سورة الناس
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="392dp"
+            android:background="#20B2AA"
+            android:textColor="@color/white"
+            android:text="  سورة الناس "
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/image4.1"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="392dp"
+            android:layout_marginLeft="210dp"
+            app:srcCompat="@android:drawable/ic_media_play"/>
+
+        <ImageView
+            android:id="@+id/image4.2"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="392dp"
+            android:layout_marginLeft="270dp"
+            app:srcCompat="@android:drawable/ic_media_pause"/>
+
+        <ImageView
+            android:id="@+id/image4.3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="402dp"
+            android:layout_marginLeft="330dp"
+            app:srcCompat="@android:drawable/stat_sys_download_done"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
