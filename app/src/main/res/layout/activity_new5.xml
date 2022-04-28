@@ -15,7 +15,8 @@
         android:layout_gravity="bottom"
         android:background="@drawable/week"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-3dp">
+        tools:layout_editor_absoluteY="-3dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/text1"
